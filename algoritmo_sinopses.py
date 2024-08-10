@@ -1,5 +1,7 @@
 """Esse algorirmo consome a API do The Movie Data Base. Mais de 1 milhão de títulos, extraindo Títulos Originais
 e Sinopses, armazenando em um arquivo CSV para treinar um algoritmo de análise de sentimento. 
+
+Link da API - https://www.themoviedb.org/
 """
 
 import requests
@@ -8,7 +10,7 @@ import pandas as pd
 import random
 
 def search_synopses(id):
-    request = requests.get(f'https://api.themoviedb.org/3/movie/{id}?api_key=2b0225a8bab83e2a45825d2344fcec9d')
+    request = requests.get(f'https://api.themoviedb.org/3/movie/{id}?api_key={Coloque aqui sua chave}')
     arrays = request.json()
 
     return arrays
