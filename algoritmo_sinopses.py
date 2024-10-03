@@ -62,7 +62,7 @@ def execute():
     end = int(input("Digite o End para a consulta: "))
 
     saving_csv(start, end)
-    #print(synopses_and_title(start, end))
+    print(synopses_and_title(start, end))
     return 
 
 execute()
