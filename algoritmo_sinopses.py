@@ -1,4 +1,4 @@
-"""Esse algorirmo consome a API do The Movie Data Base. Mais de 1 milhão de títulos, extraindo Títulos Originais
+"""Esse algoritmo consome a API do The Movie Data Base. Mais de 1 milhão de títulos, extraindo Títulos Originais
 e Sinopses, armazenando em um arquivo CSV para treinar um algoritmo de análise de sentimento. 
 
 Link da API - https://www.themoviedb.org/
